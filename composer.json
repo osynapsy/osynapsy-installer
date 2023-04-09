@@ -1,0 +1,26 @@
+{
+    "name": "osynapsy/osynapsy-installer",
+    "version": "0.1",
+    "homepage": "http://www.osynapsy.net/installer",
+    "type": "library",
+    "description": "Osynapsy installer library",
+    "keywords": ["Osynapsy", "installer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-installer/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0",
+        "osynapsy/osynapsy-console" : "@stable",
+        "osynapsy/osynapsy-database" : "@stable"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Installer\\": "src/"
+        }
+    }
+}
